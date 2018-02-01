@@ -1,0 +1,150 @@
+body{
+    background-color: darkblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.logo{
+    margin:20px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.headSpan{
+    width: 400px;   
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+
+.span:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+#subscribeBtn{
+    border: 1px solid white;
+    border-radius: 100px;
+    height: 20px;
+    padding: 10px;
+    color: white;    
+    text-align: center;
+    margin: 20px;
+}
+
+#subscribeBtn:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+.contentDiv{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.centerStuff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.textWrapper{
+    margin: 30px;
+}
+
+.exploreBtn{
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    color: darkblue;
+}
+
+.exploreBtn:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.centerLogo{
+    margin: 10px;
+}
+
+.bottomStuff{
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.littleBar{
+    background-color: white;
+    height:50px;
+    width:1px;
+    margin-left:10px;
+}
+
+.littleBar:hover{
+    cursor: pointer;
+}
+
+#flipped{
+    -webkit-transform: rotate(-90deg);
+    margin-bottom: 160px;
+}
+
+#flipped:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.centerBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circlesBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.whiteCircles{
+    background-color:darkblue;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius:100px;
+    border: 2px solid white;
+}
+
+.whiteCircles:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.scroll:hover{
+    cursor: pointer;
+}
+
